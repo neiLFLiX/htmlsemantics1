@@ -1,0 +1,101 @@
+
+body {
+    background-color: rgb(147, 147, 200);
+}
+
+header {
+    background-color: rgb(41, 74, 103);
+    margin: 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 74, 103);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navi ul li {
+    display: inline;
+}
+
+.navi ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navi ul li a:hover {
+    background-color: #2c3e50;
+    border-radius: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+#myself {
+    background-color: rgb(41, 74, 103);
+    padding: 1opx;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.mysef {
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.mysef li {
+    list-style: none;
+}
+
+.fig img{
+    height: 250px;
+}
+
+.child {
+    background-color: wheat;
+    padding: 5px;
+    text-align: center;
+    margin: 100px;
+    border-radius: 5px;
+}
+
+.teen {
+    background-color: wheat;
+    padding: 5px;
+    text-align: center;
+    margin: 100px;
+}
+
+.adult {
+    background-color: wheat;
+    padding: 5px;
+    text-align: center;
+    margin: 100px;
+}
+
+#lifestory {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+}
