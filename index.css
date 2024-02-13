@@ -60,6 +60,7 @@ h2{
     padding: 5px;
     text-align: center;
     align-items: center;
+    display: flex;
 }
 
 .mysef li {
@@ -75,7 +76,7 @@ h2{
     padding: 5px;
     text-align: center;
     margin: 100px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .teen {
@@ -83,6 +84,7 @@ h2{
     padding: 5px;
     text-align: center;
     margin: 100px;
+    border-radius: 20px;
 }
 
 .adult {
@@ -90,6 +92,7 @@ h2{
     padding: 5px;
     text-align: center;
     margin: 100px;
+    border-radius: 20px;
 }
 
 #lifestory {
